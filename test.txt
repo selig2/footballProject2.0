@@ -1,0 +1,916 @@
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+	    		    	<script>
+		window.has_access_to_mlb_betting = "no";
+	</script>
+
+	<!-- START OPTIMIZELY CODE -->
+		
+	
+		<script src="//cdn.optimizely.com/js/2407510779.js"></script>
+		<script>
+			// add GA event if there are page load delays:
+			window.onload = function() {
+
+			  if ( typeof window.performance != 'undefined' ) {
+			
+			    var loadTime = window.performance.timing.domContentLoadedEventEnd - window.performance.timing.navigationStart; 
+			    
+			    if ( loadTime > 5000 ) {
+			
+			      var installed = jQuery('script[src*="cdn.optimizely.com"]').length > 0 ? 'installed' : 'not installed';
+			
+			      ga('send', 'event', 'Warning', 'Is Optimizely causing issues?', 'Optimizely is ' + installed + ' & ' + typeof optimizely, loadTime);
+			    }
+			  }
+			};
+		</script>
+	
+	<!-- END OPTIMIZELY CODE -->
+                <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>NFL Football Stats - NFL Team Points per Game on TeamRankings.com</title>
+        <meta name="description" content="NFL Football points per game page."/>
+		<meta name="robots" content="NOODP"/>
+		
+				
+				
+					
+				  <link type="text/css" rel="stylesheet" href="/css/v3/reset.css" />
+				  <link type="text/css" rel="stylesheet" href="/css/v4/standard.css?ver=1434028146" />
+				  <link type="text/css" rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.2/themes/base/jquery-ui.css" />
+				
+				  <script type="text/javascript" src="/scripts/js/v4/modernizr-2.8.3.min.js"></script>
+				  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+				  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.2/jquery-ui.min.js"></script>
+		 
+		
+		
+		  <!--[if IE 7]>
+		    <link type="text/css" media="screen" rel="stylesheet" href="/css/v3/ie7.css" />
+		    <link type="text/css" media="screen" rel="stylesheet" href="/css/bracket/ie7.css" />
+		    <script type="text/javascript" src="/scripts/js/v3/ie7.js"></script>
+		  <![endif]-->
+		  <!--[if IE]>
+		    <link type="text/css" media="screen" rel="stylesheet" href="/css/v3/ie.css" />
+		    <script type="text/javascript" src="/scripts/js/v3/ie.js"></script>
+		  <![endif]-->
+		
+		
+				
+		    </head>
+    
+    <body class="nfl notice nfl-stats">
+					
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		
+		ga('create', 'UA-2329615-1', 'auto');
+		ga('require', 'linkid', 'linkid.js'); // enhanced link attribution: https://support.google.com/analytics/answer/2558867?hl=en
+		
+		
+			ga('set', 'dimension1', "Visitor");
+		
+		
+		
+			ga('set', 'dimension2', "stat");
+		
+
+		ga('send', 'pageview');
+		
+		
+	</script>
+		
+		
+		
+		<!-- SVG icons -->
+<svg display="none" width="0" height="0" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<defs>
+		<symbol id="icon-coin-dollar" viewBox="0 0 1024 1024">
+			<title>coin-dollar</title>
+			<path class="path1" d="M480 64c-265.096 0-480 214.904-480 480 0 265.098 214.904 480 480 480 265.098 0 480-214.902 480-480 0-265.096-214.902-480-480-480zM480 928c-212.078 0-384-171.922-384-384s171.922-384 384-384c212.078 0 384 171.922 384 384s-171.922 384-384 384zM512 512v-128h128v-64h-128v-64h-64v64h-128v256h128v128h-128v64h128v64h64v-64h128.002l-0.002-256h-128zM448 512h-64v-128h64v128zM576.002 704h-64.002v-128h64.002v128z"></path>
+		</symbol>
+		<symbol id="icon-notification2" viewBox="0 0 1024 1024">
+			<title>notification2</title>
+			<path class="path1" d="M512 0c-282.77 0-512 229.23-512 512s229.23 512 512 512 512-229.23 512-512-229.23-512-512-512zM576 832h-128v-128h128v128zM576 576h-128v-384h128v384z"></path>
+		</symbol>
+		<symbol id="icon-facebook2" viewBox="0 0 1024 1024">
+			<title>facebook2</title>
+			<path class="path1" d="M853.35 0h-682.702c-94.25 0-170.648 76.42-170.648 170.686v682.63c0 94.266 76.398 170.684 170.648 170.684h341.352v-448h-128v-128h128v-96c0-88.366 71.634-160 160-160h160v128h-160c-17.674 0-32 14.328-32 32v96h176l-32 128h-144v448h213.35c94.25 0 170.65-76.418 170.65-170.684v-682.63c0-94.266-76.4-170.686-170.65-170.686z"></path>
+		</symbol>
+		<symbol id="icon-twitter2" viewBox="0 0 1024 1024">
+			<title>twitter2</title>
+			<path class="path1" d="M853.342 0h-682.656c-93.874 0-170.686 76.81-170.686 170.69v682.624c0 93.936 76.812 170.686 170.686 170.686h682.656c93.876 0 170.658-76.75 170.658-170.69v-682.62c0-93.88-76.782-170.69-170.658-170.69zM766.478 381.48c0.252 5.632 0.38 11.296 0.38 16.988 0 173.51-132.070 373.588-373.584 373.588-74.15 0-143.168-21.738-201.276-58.996 10.272 1.218 20.724 1.84 31.322 1.84 61.518 0 118.134-20.992 163.072-56.21-57.458-1.054-105.948-39.020-122.658-91.184 8.018 1.532 16.244 2.36 24.704 2.36 11.976 0 23.578-1.61 34.592-4.61-60.064-12.066-105.326-65.132-105.326-128.75 0-0.554 0-1.104 0.012-1.652 17.7 9.834 37.948 15.742 59.47 16.424-35.232-23.546-58.414-63.736-58.414-109.292 0-24.064 6.476-46.62 17.78-66.010 64.76 79.44 161.51 131.712 270.634 137.19-2.238-9.612-3.4-19.632-3.4-29.924 0-72.512 58.792-131.298 131.304-131.298 37.766 0 71.892 15.944 95.842 41.462 29.908-5.886 58.008-16.814 83.38-31.862-9.804 30.662-30.624 56.394-57.732 72.644 26.56-3.174 51.866-10.232 75.412-20.674-17.594 26.328-39.854 49.454-65.514 67.966z"></path>
+		</symbol>
+	</defs>
+</svg>
+<!-- End SVG icons -->		  <div id="wrapper">
+	<header role="banner" class="">
+    <div class="header-top clearfix">
+	        <button class="mobile-menu-toggle clearfix">
+        	<span class="mobile-menu-button-text">
+	        	<span class="visuallyhidden show-hide-text">Show </span>Menu
+	        </span>
+	    </button>
+
+        <a href="/" class="logo">
+	        <div class="logo-image">TeamRankings.com</div>
+	        <div class="logo-tagline">Sports predictions & data</div>
+	    </a>
+		
+		<div class="header-login-status">
+						    <div class="header-login-tagline">You are <strong>not</strong> logged in:</div>
+			    <div class="header-login-links"><a href="/register">Sign Up</a> | <a href="/login">Login</a></div>
+				    </div> <!-- header-login-status -->
+    </div> <!-- header-top -->	
+    
+    	    <nav role="navigation" class="main-nav" >
+	        <ul class="main-nav-list">
+		        <li class="main-nav-top-level-item"><a class="main-nav-top-level-link" id="nav-home" href="/">Home</a></li>
+		        <li class="main-nav-top-level-item featured"><a class="main-nav-top-level-link" id="main-nav-mlb-betting-picks" href="/mlb-betting-picks/">MLB Picks</a></li>
+		        			    			        <li class="main-nav-top-level-item has-subnav">
+			        	<a class="main-nav-top-level-link subnav-toggle" href="/mlb/" id="nav-mlb-tab">MLB</a>
+			        	<div class="main-nav-subnav clearfix">
+	   			        	<div class="subnav-column">
+		   			        	<h5 class="subnav-category-heading subnav-sport-home hidden"><a href="/mlb/">MLB Home</a></h5>
+		   			        	<img src="/images/redesign/cy_young_nav.jpg" style="margin-top:5px;" />
+	   			        	</div> <!-- subnav-column -->
+	   			        	<div class="subnav-column">
+		   			        	<h5 class="subnav-category-heading no-mobile-border"><a href="/mlb-betting-picks/" class="subnav-toggle">Betting Picks</a></h5>
+		   			        	<ul class="subnav-list">
+			   			        	<li><a href="/mlb-money-line-picks/">Money Line Picks</a></li>
+			   			        	<li><a href="/mlb-over-under-picks/">Over Under Picks</a></li>
+			   			        	<li><a href="/mlb-run-line-picks/">Run Line Picks</a></li>
+			   			        	<li><a href="/mlb-betting-picks/">Betting Picks Grid</a></li>
+		   			        	</ul>
+		   			        	
+		   			        	<h5 class="subnav-category-heading"><a href="/mlb-win-picks/" class="subnav-toggle">Predictions</a></h5>
+		   			        	<ul class="subnav-list">
+			   			        	<li><a href="/mlb-win-picks/">Game Winner Picks</a></li>
+			   			        	<li><a href="/mlb/projections/standings/">Season Projections</a></li>
+			   			        	<li><a href="/mlb/projections/postseason-seeds/">Postseason Seeds</a></li>
+			   			        	<li><a href="/mlb/betting-models/">Prediction Accuracy</a></li>
+		   			        	</ul>
+	   			        	</div> <!-- subnav-column -->
+	   			        	<div class="subnav-column">
+		   			        	<h5 class="subnav-category-heading"><a href="/mlb/rankings/" class="subnav-toggle">Rankings</a></h5>
+		   			        	<ul class="subnav-list">
+			   			        	<li><a href="/mlb/ranking/predictive-by-other/">Predictive</a></li>
+			   			        	<li><a href="/mlb/ranking/schedule-strength-by-other/">Strength Of Schedule</a></li>
+			   			        	<li><a href="/mlb/ranking/future-sos-by-other/">Future SOS</a></li>
+			   			        	<li><a href="/mlb/ranking/last-10-games-by-other/">Last 10 Games</a></li>
+			   			        	<li><a href="/mlb/ranking/home-by-other/">Home</a></li>
+			   			        	<li><a href="/mlb/ranking/away-by-other/">Away</a></li>
+			   			        	<li><a href="/mlb/ranking/in-division-by-other/">In-Division</a></li>
+			   			        	<li><a href="/mlb/ranking/non-division-by-other/">Non-Division</a></li>
+			   			        	<li><a href="/mlb/ranking/luck-by-other/">Luck</a></li>
+			   			        	<li><a href="/mlb/ranking/consistency-by-other">Consistency</a></li>
+			   			        	<li><a href="/mlb/rankings/">More...</a></li>
+		   			        	</ul>		        	
+	   			        	</div> <!-- subnav-column -->
+	
+	   			        	<div class="subnav-column">
+		   			        	<h5 class="subnav-category-heading"><a href="/mlb/stats/" class="subnav-toggle">Stats</a></h5>
+		   			        	<ul class="subnav-list">
+			   			        	<li><a href="/mlb/stat/batting-average-on-balls-in-play/">BABIP</a></li>
+			   			        	<li><a href="/mlb/stat/on-base-plus-slugging-pct/">OPS</a></li>				   			        	
+			   			        	<li><a href="/mlb/stat/home-run-pct/">Home Run %</a></li>
+			   			        	<li><a href="/mlb/stat/strikeout-pct/">Strikeout %</a></li>
+			   			        	<li><a href="/mlb/stat/walk-pct/">Walk %</a></li>
+			   			        	<li><a href="/mlb/stat/walks-plus-hits-per-inning-pitched/">WHIP</a></li>
+			   			        	<li><a href="/mlb/stat/opponent-on-base-plus-slugging-pct/">Opponent OPS</a></li>
+			   			        	<li><a href="/mlb/stat/opponent-batting-average-on-balls-in-play/">Opponent BABIP</a></li>
+			   			        	<li><a href="/mlb/stat/1st-inning-runs-per-game/">1st Inning Runs</a></li>
+			   			        	<li><a href="/mlb/stat/first-5-innings-runs-per-game/">1st 5 Innings Runs</a></li>
+			   			        	<li><a href="/mlb/stats/">More...</a></li>
+		   			        	</ul>		   			        	
+	   			        	</div> <!-- subnav-column -->
+	
+	   			        	<div class="subnav-column">
+		   			        	<h5 class="subnav-category-heading"><a href="/mlb/odds/">Odds</a></h5>
+		   			        	<h5 class="subnav-category-heading"><a href="/mlb/trends/win_trends/" class="subnav-toggle">Trends</a></h5>
+		   			        	<ul class="subnav-list">
+			   			        	<li><a href="/mlb/trends/win_trends/">Win/Loss Trends</a></li>
+			   			        	<li><a href="/mlb/trends/ats_trends/">Run Line Trends</a></li>
+			   			        	<li><a href="/mlb/trends/ou_trends/">Over/Under Trends</a></li>
+		   			        	</ul>
+		   			        	
+		   			        	<h5 class="subnav-category-heading"><a href="/mlb/schedules/">Schedules</a></h5>
+			   			        <h5 class="subnav-category-heading"><a href="/mlb/scores/">Scores</a></h5>
+		   			        	<h5 class="subnav-category-heading"><a href="/mlb/standings/">Standings</a></h5>
+	   			        	</div> <!-- subnav-column -->
+	   			        	
+	   			        	<div class="subnav-column">
+		   			        	<h5 class="subnav-category-heading"><a href="/mlb/divisions/" class="subnav-toggle">Divisions</a></h5>
+		   			        	<ul class="subnav-list">
+			   			        	<li><a href="/mlb/division/al-east/">AL East</a></li>
+			   			        	<li><a href="/mlb/division/al-central/">AL Central</a></li>
+			   						<li><a href="/mlb/division/al-west/">AL West</a></li>
+			   			        	<li><a href="/mlb/division/nl-east/">NL East</a></li>
+			   			        	<li><a href="/mlb/division/nl-central/">NL Central</a></li>
+			   			        	<li><a href="/mlb/division/nl-west">NL West</a></li>
+		   			        	</ul>
+	
+		   			        	<h5 class="subnav-category-heading"><a href="/mlb/teams/">Teams</a></h5>
+		   			        	<h5 class="subnav-category-heading"><a href="/mlb/players/">Players</a></h5>
+	   			        	</div> <!-- subnav-column -->
+			        	</div> <!-- main-nav-subnav -->
+			        </li>
+			        <li class="main-nav-top-level-item has-subnav">
+			        	<a class="main-nav-top-level-link subnav-toggle" href="/nfl/" id="nav-nfl-tab">NFL</a>
+			        	<div class="main-nav-subnav clearfix">
+	   			        	<div class="subnav-column">
+		   			        	<h5 class="subnav-category-heading subnav-sport-home hidden"><a href="/nfl/">NFL Home</a></h5>
+		   			        	<h5 class="subnav-category-heading no-mobile-border"><a href="/office-pool-picks/" class="subnav-toggle">Pool Picks</a></h5>
+		   			        	<ul class="subnav-list subnav-list-cta">
+			   			        	<li><a href="/football-pool-picks/">NFL Pick'em Picks</a></li>
+			   			        	<li><a href="/nfl-survivor-pool-picks/">NFL Survivor Picks</a></li>
+		   			        	</ul>
+	
+		   			        	<div class="hidden-handset">
+			   			        	<a href="/nfl-survivor-pool-picks/" class="subnav-promo-image"><img src="/images/homepage/thumb-nfl-survivor-pools.jpg" alt="NFL Survivor Picks" /></a>
+			   			        			   			        	</div> <!-- hidden-handset -->
+	   			        	</div> <!-- subnav-column -->
+	   			        	<div class="subnav-column">
+		   			        	<h5 class="subnav-category-heading"><a href="/nfl-betting-picks/" class="subnav-toggle">Betting Picks</a></h5>
+		   			        	<ul class="subnav-list">
+			   			        	<li><a href="/nfl-ats-picks/">Point Spread Picks</a></li>
+			   			        	<li><a href="/nfl-over-under-picks/">Over Under Picks</a></li>
+			   			        	<li><a href="/nfl-money-line-picks/">Money Line Picks</a></li>
+			   			        	<li><a href="/nfl-betting-picks/">Betting Picks Grid</a></li>
+		   			        	</ul>
+		   			        	
+		   			        	<h5 class="subnav-category-heading"><a href="/nfl-win-picks/" class="subnav-toggle">Predictions</a></h5>
+		   			        	<ul class="subnav-list">
+			   			        	<li><a href="/nfl-win-picks/">Game Winner Picks</a></li>
+			   			        	<li><a href="/nfl-upset-predictions/">Most Likely Upsets</a></li>
+			   			        	<li><a href="/nfl/projections/standings/">Season Projections</a></li>
+			   			        	<li><a href="/nfl/betting-models/">Prediction Accuracy</a></li>
+		   			        	</ul>
+	   			        	</div> <!-- subnav-column -->
+	   			        	<div class="subnav-column">
+		   			        	<h5 class="subnav-category-heading"><a href="/nfl/rankings/" class="subnav-toggle">Rankings</a></h5>
+		   			        	<ul class="subnav-list">
+			   			        	<li><a href="/nfl/ranking/predictive-by-other/">Predictive</a></li>
+			   			        	<li><a href="/nfl/ranking/schedule-strength-by-other/">Strength Of Schedule</a></li>
+			   			        	<li><a href="/nfl/ranking/future-sos-by-other/">Future SOS</a></li>
+			   			        	<li><a href="/nfl/ranking/last-5-games-by-other/">Last 5 Games</a></li>
+			   			        	<li><a href="/nfl/ranking/home-by-other/">Home</a></li>
+			   			        	<li><a href="/nfl/ranking/away-by-other/">Away</a></li>
+			   			        	<li><a href="/nfl/ranking/in-division-by-other/">In-Division</a></li>
+			   			        	<li><a href="/nfl/ranking/non-division-by-other/">Non-Division</a></li>
+			   			        	<li><a href="/nfl/ranking/luck-by-other/">Luck</a></li>
+			   			        	<li><a href="/nfl/ranking/consistency-by-other/">Consistency</a></li>
+			   			        	<li><a href="/nfl/rankings/">More...</a></li>
+		   			        	</ul>		        	
+	   			        	</div> <!-- subnav-column -->
+	
+	   			        	<div class="subnav-column">
+		   			        	<h5 class="subnav-category-heading"><a href="/nfl/stats/" class="subnav-toggle">Stats</a></h5>
+		   			        	<ul class="subnav-list">
+			   			        	<li><a href="/nfl/stat/yards-per-play/">Yards Per Play</a></li>
+			   			        	<li><a href="/nfl/stat/yards-per-rush-attempt/">Yards Per Rush</a></li>
+			   			        	<li><a href="/nfl/stat/yards-per-pass-attempt/">Yards Per Pass</a></li>
+			   			        	<li><a href="/nfl/stat/plays-per-game/">Plays Per Game</a></li>
+			   			        	<li><a href="/nfl/stat/red-zone-scoring-pct/">Red Zone TD %</a></li>
+			   			        	<li><a href="/nfl/stat/turnover-margin-per-game/">Turnover Margin</a></li>
+			   			        	<li><a href="/nfl/stat/opponent-yards-per-rush-attempt/">Opponent Yards/Rush</a></li>
+			   			        	<li><a href="/nfl/stat/opponent-yards-per-pass-attempt/">Opponent Yards/Pass</a></li>
+			   			        	<li><a href="/nfl/stat/1st-half-points-per-game/">1H Points Per Game</a></li>
+			   			        	<li><a href="/nfl/stat/2nd-half-points-per-game/">2H Points Per Game</a></li>
+			   			        	<li><a href="/nfl/stats/">More...</a></li>
+		   			        	</ul>		   			        	
+	   			        	</div> <!-- subnav-column -->
+	
+	   			        	<div class="subnav-column">
+		   			        	<h5 class="subnav-category-heading"><a href="/nfl/odds/" class="subnav-toggle">Odds</a></h5>
+		   			        	<ul class="subnav-list">
+			   			        	<li><a href="/nfl/odds/">Vegas Odds</a></li>
+			   			        	<li><a href="/nfl/odds-history/results/">Odds History</a></li>
+			   						<li><a href="/nfl/odds-movement/ats/results/">Line Movement</a></li>
+		   			        	</ul>
+	
+		   			        	<h5 class="subnav-category-heading"><a href="/nfl/trends/win_trends/" class="subnav-toggle">Trends</a></h5>
+		   			        	<ul class="subnav-list">
+			   			        	<li><a href="/nfl/trends/win_trends/">Win/Loss Trends</a></li>
+			   			        	<li><a href="/nfl/trends/ats_trends/">ATS Trends</a></li>
+		   			        	</ul>
+		   			        	
+		   			        	<h5 class="subnav-category-heading"><a href="/nfl/schedules/season/">Schedules</a></h5>
+			   			        <h5 class="subnav-category-heading"><a href="/nfl/scores/">Scores</a></h5>
+		   			        	<h5 class="subnav-category-heading"><a href="/nfl/standings/">Standings</a></h5>
+
+	   			        	</div> <!-- subnav-column -->
+		   			        	
+	   			        	<div class="subnav-column">
+		   			        	<h5 class="subnav-category-heading"><a href="/nfl/divisions/" class="subnav-toggle">Divisions</a></h5>
+		   			        	<ul class="subnav-list">
+			   			        	<li><a href="/nfl/division/afc-east/">AFC East</a></li>
+			   			        	<li><a href="/nfl/division/afc-north/">AFC North</a></li>
+			   						<li><a href="/nfl/division/afc-south/">AFC South</a></li>
+			   						<li><a href="/nfl/division/afc-west/">AFC West</a></li>
+			   						<li><a href="/nfl/division/nfc-east/">NFC East</a></li>
+			   						<li><a href="/nfl/division/nfc-north/">NFC North</a></li>
+			   						<li><a href="/nfl/division/nfc-south/">NFC South</a></li>
+			   						<li><a href="/nfl/division/nfc-west/">NFC West</a></li>
+		   			        	</ul>
+	
+		   			        	<h5 class="subnav-category-heading"><a href="/nfl/teams/">Teams</a></h5>
+		   			        	<h5 class="subnav-category-heading"><a href="/nfl/players/">Players</a></h5>
+	   			        	</div> <!-- subnav-column -->
+			        	</div> <!-- main-nav-subnav -->
+			        </li>
+			        <li class="main-nav-top-level-item has-subnav">
+			        	<a class="main-nav-top-level-link subnav-toggle" href="/ncf/" id="nav-ncf-tab">NCAAF</a>
+			        	<div class="main-nav-subnav clearifx">
+	   			        	<div class="subnav-column">
+		   			        	<h5 class="subnav-category-heading subnav-sport-home hidden"><a href="/ncf/">NCAAF Home</a></h5>
+		   			        	<h5 class="subnav-category-heading no-mobile-border"><a href="/office-pool-picks/" class="subnav-toggle">Pool Picks</a></h5>
+		   			        	<ul class="subnav-list subnav-list-cta">
+			   			        	<li><a href="/football-pool-picks/">College Pick'em Picks</a></li>
+			   			        	<li><a href="/college-bowl-pool-picks/">Bowl Pick'em Picks</a></li>
+		   			        	</ul>
+	
+		   			        	<div class="hidden-handset">
+			   			        	<a href="/college-bowl-pool-picks/" class="subnav-promo-image"><img src="/images/homepage/thumb-bowl-pickem-picks.jpg" alt="Bowl Pick'em Picks" /></a>
+			   			        			   			        	</div> <!-- hidden-handset -->
+	   			        	</div> <!-- subnav-column -->
+	   			        	<div class="subnav-column">
+		   			        	<h5 class="subnav-category-heading"><a href="/college-football-betting-picks/" class="subnav-toggle">Betting Picks</a></h5>
+		   			        	<ul class="subnav-list">
+			   			        	<li><a href="/college-football-ats-picks/">Point Spread Picks</a></li>
+			   			        	<li><a href="/college-football-over-under-picks/">Over Under Picks</a></li>
+			   			        	<li><a href="/college-football-money-line-picks/">Money Line Picks</a></li>
+			   			        	<li><a href="/college-football-betting-picks/">Betting Picks Grid</a></li>
+		   			        	</ul>
+		   			        	
+		   			        	<h5 class="subnav-category-heading"><a href="/college-football-win-picks/" class="subnav-toggle">Predictions</a></h5>
+		   			        	<ul class="subnav-list">
+			   			        	<li><a href="/college-football-win-picks/">Game Winner Picks</a></li>
+			   			        	<li><a href="/college-football-upset-predictions/">Most Likely Upsets</a></li>
+			   			        	<li><a href="/college-football/projections/standings/">Season Projections</a></li>
+			   			        	<li><a href="/ncf/betting-models/">Prediction Accuracy</a></li>
+		   			        	</ul>
+	   			        	</div> <!-- subnav-column -->
+	   			        	<div class="subnav-column">
+		   			        	<h5 class="subnav-category-heading"><a href="/ncf/rankings/" class="subnav-toggle">Rankings</a></h5>
+		   			        	<ul class="subnav-list">
+			   			        	<li><a href="/college-football/ranking/predictive-by-other/">Predictive</a></li>
+			   			        	<li><a href="/college-football/ranking/schedule-strength-by-other/">Strength Of Schedule</a></li>
+			   			        	<li><a href="/college-football/ranking/future-sos-by-other/">Future SOS</a></li>
+			   			        	<li><a href="/college-football/ranking/last-5-games-by-other/">Last 5 Games</a></li>
+			   			        	<li><a href="/college-football/ranking/home-by-other/">Home</a></li>
+			   			        	<li><a href="/college-football/ranking/away-by-other/">Away</a></li>
+			   			        	<li><a href="/college-football/ranking/in-conference-by-other/">In-Conference</a></li>
+			   			        	<li><a href="/college-football/ranking/non-conference-by-other/">Non-Conference</a></li>
+			   			        	<li><a href="/college-football/ranking/luck-by-other/">Luck</a></li>
+			   			        	<li><a href="/college-football/ranking/consistency-by-other/">Consistency</a></li>
+			   			        	<li><a href="/ncf/rankings/">More...</a></li>
+		   			        	</ul>		        	
+	   			        	</div> <!-- subnav-column -->
+	
+	   			        	<div class="subnav-column">
+		   			        	<h5 class="subnav-category-heading"><a href="/ncf/stats/" class="subnav-toggle">Stats</a></h5>
+		   			        	<ul class="subnav-list">
+			   			        	<li><a href="/college-football/stat/yards-per-play/">Yards Per Play</a></li>
+			   			        	<li><a href="/college-football/stat/yards-per-rush-attempt/">Yards Per Rush</a></li>
+			   			        	<li><a href="/college-football/stat/yards-per-pass-attempt/">Yards Per Pass</a></li>
+			   			        	<li><a href="/college-football/stat/plays-per-game/">Plays Per Game</a></li>
+			   			        	<li><a href="/college-football/stat/red-zone-scoring-pct/">Red Zone Scoring %</a></li>
+			   			        	<li><a href="/college-football/stat/turnover-margin-per-game/">Turnover Margin</a></li>
+			   			        	<li><a href="/college-football/stat/opponent-yards-per-rush-attempt/">Opponent Yards/Rush</a></li>
+			   			        	<li><a href="/college-football/stat/opponent-yards-per-pass-attempt/">Opponent Yards/Pass</a></li>
+			   			        	<li><a href="/college-football/stat/1st-half-points-per-game/">1H Points Per Game</a></li>
+			   			        	<li><a href="/college-football/stat/2nd-half-points-per-game/">2H Points Per Game</a></li>
+			   			        	<li><a href="/ncf/stats/">More...</a></li>
+		   			        	</ul>		   			        	
+	   			        	</div> <!-- subnav-column -->
+	
+	   			        	<div class="subnav-column">
+		   			        	<h5 class="subnav-category-heading"><a href="/ncf/odds/" class="subnav-toggle">Odds</a></h5>
+		   			        	<ul class="subnav-list">
+			   			        	<li><a href="/ncf/odds/">Vegas Odds</a></li>
+			   			        	<li><a href="/ncf/odds-history/">Odds History</a></li>
+			   						<li><a href="/ncf/odds-movement/ats/">Line Movement</a></li>
+		   			        	</ul>
+	
+		   			        	<h5 class="subnav-category-heading"><a href="/college-football/trends/win_trends/">Trends</a></h5>
+		   			        	<h5 class="subnav-category-heading"><a href="/ncf/polls/">Polls</a></h5>
+		   			        	<h5 class="subnav-category-heading"><a href="/ncf/schedules/season/">Schedules</a></h5>
+			   			        <h5 class="subnav-category-heading"><a href="/ncf/scores/">Scores</a></h5>
+		   			        	<h5 class="subnav-category-heading"><a href="/ncf/standings/">Standings</a></h5>				   			        
+	   			        	</div> <!-- subnav-column -->
+		   			        	
+	   			        	<div class="subnav-column">
+		   			        	<h5 class="subnav-category-heading"><a href="/ncf/conferences/" class="subnav-toggle">Conferences</a></h5>
+		   			        	<ul class="subnav-list">
+			   						<li><a href="/college-football/conference/aac">AAC</a></li>
+			   			        	<li><a href="/college-football/conference/acc/">ACC</a></li>
+			   			        	<li><a href="/college-football/conference/big12/">Big 12</a></li>
+			   						<li><a href="/college-football/conference/big10/">Big Ten</a></li>
+			   						<li><a href="/college-football/conference/pac12/">Pac-12</a></li>
+			   						<li><a href="/college-football/conference/sec/">SEC</a></li>
+			   						<li><a href="/ncf/conferences/">More...</a></li>
+		   			        	</ul>
+	
+		   			        	<h5 class="subnav-category-heading"><a href="/ncf/teams/">Teams</a></h5>
+		   			        	<h5 class="subnav-category-heading"><a href="/college-football/players/">Players</a></h5>
+	   			        	</div> <!-- subnav-column -->
+			        	</div> <!-- main-nav-subnav -->
+			        </li>
+			        <li class="main-nav-top-level-item has-subnav">
+			        	<a class="main-nav-top-level-link subnav-toggle" href="/ncb/" id="nav-ncb-tab">NCAAB</a>
+			        	<div class="main-nav-subnav clearfix">
+	   			        	<div class="subnav-column">
+		   			        	<h5 class="subnav-category-heading subnav-sport-home hidden"><a href="/ncb/">NCAAB Home</a></h5>
+		   			        	<h5 class="subnav-category-heading no-mobile-border"><a href="/ncaa-bracket-picks/" class="subnav-toggle">Bracket Picks</a></h5>
+		   			        	<ul class="subnav-list subnav-list-cta">
+			   			        	<li><a href="/ncaa-bracket-picks/">NCAA Bracket Picks</a></li>
+			   			        	<li><a href="/ncaa-tournament/bracket-help-advice-tips/">Bracket Help</a></li>
+		   			        	</ul>
+	
+		   			        	<div class="hidden-handset">
+			   			        	<a href="/ncaa-bracket-picks/" class="subnav-promo-image"><img src="/images/homepage/thumb-ncaa-bracket-picks.jpg" alt="NCAA Bracket Picks" /></a>
+			   			        			   			        	</div> <!-- hidden-handset -->
+	   			        	</div> <!-- subnav-column -->
+	   			        	<div class="subnav-column">
+		   			        	<h5 class="subnav-category-heading"><a href="/ncaa-basketball-betting-picks/" class="subnav-toggle">Betting Picks</a></h5>
+		   			        	<ul class="subnav-list">
+			   			        	<li><a href="/ncaa-basketball-ats-picks/">Point Spread Picks</a></li>
+			   			        	<li><a href="/ncaa-basketball-over-under-picks/">Over Under Picks</a></li>
+			   			        	<li><a href="/ncaa-basketball-money-line-picks">Money Line Picks</a></li>
+			   			        	<li><a href="/ncaa-basketball-betting-picks/">Betting Picks Grid</a></li>
+		   			        	</ul>
+		   			        	
+		   			        	<h5 class="subnav-category-heading"><a href="/ncaa-basketball-win-picks/" class="subnav-toggle">Predictions</a></h5>
+		   			        	<ul class="subnav-list">
+			   			        	<li><a href="/ncaa-basketball-win-picks/">Game Winner Picks</a></li>
+			   			        	<li><a href="/ncaa-basketball-upset-predictions/">Most Likely Upsets</a></li>
+			   			        	<li><a href="/ncaa-basketball/projections/standings/">Season Projections</a></li>
+			   			        	<li><a href="/ncb/conference-tournaments/">Conference Tournaments</a></li>
+			   			        	<li><a href="/ncb/betting-models/">Prediction Accuracy</a></li>
+		   			        	</ul>
+	   			        	</div> <!-- subnav-column -->
+	   			        	<div class="subnav-column">
+		   			        	<h5 class="subnav-category-heading"><a href="/ncb/rankings/" class="subnav-toggle">Rankings</a></h5>
+		   			        	<ul class="subnav-list">
+			   			        	<li><a href="/ncaa-basketball/ranking/predictive-by-other/">Predictive</a></li>
+			   			        	<li><a href="/ncaa-basketball/ranking/schedule-strength-by-other/">Strength Of Schedule</a></li>
+			   			        	<li><a href="/ncaa-basketball/ranking/future-sos-by-other/">Future SOS</a></li>
+			   			        	<li><a href="/ncaa-basketball/ranking/last-10-games-by-other/">Last 10 Games</a></li>
+			   			        	<li><a href="/ncaa-basketball/ranking/home-by-other/">Home</a></li>
+			   			        	<li><a href="/ncaa-basketball/ranking/away-by-other/">Away</a></li>
+			   			        	<li><a href="/ncaa-basketball/ranking/in-conference-by-other/">In-Conference</a></li>
+			   			        	<li><a href="/ncaa-basketball/ranking/non-conference-by-other/">Non-Conference</a></li>
+			   			        	<li><a href="/ncaa-basketball/ranking/luck-by-other/">Luck</a></li>
+			   			        	<li><a href="/ncaa-basketball/ranking/consistency-by-other/">Consistency</a></li>
+			   			        	<li><a href="/ncb/rankings/">More...</a></li>
+		   			        	</ul>		        	
+	   			        	</div> <!-- subnav-column -->
+	
+	   			        	<div class="subnav-column">
+		   			        	<h5 class="subnav-category-heading"><a href="/ncb/stats/" class="subnav-toggle">Stats</a></h5>
+		   			        	<ul class="subnav-list">
+			   			        	<li><a href="/ncaa-basketball/stat/offensive-efficiency/">Offensive Efficiency</a></li>
+			   			        	<li><a href="/ncaa-basketball/stat/defensive-efficiency/">Defensive Efficiency</a></li>
+			   			        	<li><a href="/ncaa-basketball/stat/effective-field-goal-pct/">Effective Field Goal %</a></li>
+			   			        	<li><a href="/ncaa-basketball/stat/turnovers-per-possession/">Turnover %</a></li>
+			   			        	<li><a href="/ncaa-basketball/stat/offensive-rebounding-pct/">Off. Rebounding %</a></li>
+			   			        	<li><a href="/ncaa-basketball/stat/defensive-rebounding-pct/">Def. Rebounding %</a></li>
+			   			        	<li><a href="/ncaa-basketball/stat/fta-per-fga/">FTA Per FGA</a></li>
+			   			        	<li><a href="/ncaa-basketball/stat/three-point-pct/">3 Point Shooting %</a></li>
+			   			        	<li><a href="/ncaa-basketball/stat/1st-half-points-per-game/">1H Points Per Game</a></li>
+			   			        	<li><a href="/ncaa-basketball/stat/2nd-half-points-per-game/">2H Points Per Game</a></li>
+			   			        	<li><a href="/ncb/stats/">More...</a></li>
+		   			        	</ul>		   			        	
+	   			        	</div> <!-- subnav-column -->
+	
+	   			        	<div class="subnav-column">
+		   			        	<h5 class="subnav-category-heading"><a href="/ncb/odds/" class="subnav-toggle">Odds</a></h5>
+		   			        	<ul class="subnav-list">
+			   			        	<li><a href="/ncb/odds/">Vegas Odds</a></li>
+			   			        	<li><a href="/ncb/odds-history/results/">Odds History</a></li>
+			   						<li><a href="/ncb/odds-movement/ats/results/">Line Movement</a></li>
+		   			        	</ul>
+	
+		   			        	<h5 class="subnav-category-heading"><a href="/ncb/trends/win_trends/">Trends</a></h5>
+		   			        	<h5 class="subnav-category-heading"><a href="/ncb/rpi/">RPI</a></h5>
+		   			        	<h5 class="subnav-category-heading"><a href="/ncaa-basketball/polls/">Polls</a></h5>
+		   			        	<h5 class="subnav-category-heading"><a href="/ncb/schedules/">Schedules</a></h5>
+		   			        	<h5 class="subnav-category-heading"><a href="/ncb/scores/">Scores</a></h5>
+		   			        	<h5 class="subnav-category-heading"><a href="/ncb/standings/">Standings</a></h5>
+	   			        	</div> <!-- subnav-column -->
+		   			        	
+	   			        	<div class="subnav-column">
+		   			        	<h5 class="subnav-category-heading"><a href="/ncb/conferences/" class="subnav-toggle">Conferences</a></h5>
+		   			        	<ul class="subnav-list">
+			   			        	<li><a href="/ncaa-basketball/conference/acc/">ACC</a></li>
+			   			        	<li><a href="/ncaa-basketball/conference/big-12/">Big 12</a></li>
+			   						<li><a href="/ncaa-basketball/conference/big-east/">Big East</a></li>
+			   						<li><a href="/ncaa-basketball/conference/big-ten/">Big Ten</a></li>
+			   						<li><a href="/ncaa-basketball/conference/pac-12/">Pac-12</a></li>
+			   						<li><a href="/ncaa-basketball/conference/sec/">SEC</a></li>
+			   						<li><a href="/ncb/conferences/">More...</a></li>
+		   			        	</ul>
+	
+		   			        	<h5 class="subnav-category-heading"><a href="/ncb/teams/">Teams</a></h5>
+		   			        	<h5 class="subnav-category-heading"><a href="/ncb/players/">Players</a></h5>
+	   			        	</div> <!-- subnav-column -->
+			        	</div> <!-- main-nav-subnav -->
+			        </li>
+			        <li class="main-nav-top-level-item has-subnav">
+			        	<a class="main-nav-top-level-link subnav-toggle" href="/nba/" id="nav-nba-tab">NBA</a>
+			        	<div class="main-nav-subnav clearfix">
+	   			        	<div class="subnav-column">
+		   			        	<h5 class="subnav-category-heading subnav-sport-home hidden"><a href="/nba/">NBA Home</a></h5>
+                                                       	<h5 class="subnav-category-heading no-mobile-border"><a href="/nba/playoffs-odds/" class="subnav-toggle">NBA Playoffs</a></h5>
+                                                        <ul class="subnav-list">
+                                                                <li><a href="/nba/playoffs-odds/">NBA Playoff Odds 2015</a></li>
+                                                                <li><a href="/nba/series/matchup-predictor/">NBA Series Predictor</a></li>
+							</ul>
+							<ul class="subnav-list">
+								<li><a href="/nba/series/team/golden-state-warriors/">Golden State</a></li>
+								<li><a href="/nba/series/team/atlanta-hawks/">Atlanta</a></li>
+								<li><a href="/nba/series/team/houston-rockets/">Houston</a></li>
+								<li><a href="/nba/series/team/cleveland-cavaliers/">Cleveland</a></li>
+								<li><a href="/nba/series/team/los-angeles-clippers/">LA Clippers</a></li>
+								<li><a href="/nba/series/team/chicago-bulls/">Chicago</a></li>
+								<li><a href="/nba/series/team/san-antonio-spurs/">San Antonio</a></li>
+                                                        </ul>
+	   			        	</div> <!-- subnav-column -->
+	   			        	<div class="subnav-column">
+	   			        	<h5 class="subnav-category-heading"><a href="/nba-betting-picks/" class="subnav-toggle">Betting Picks</a></h5>
+		   			        	<ul class="subnav-list">
+			   			        	<li><a href="/nba-ats-picks/">Point Spread Picks</a></li>
+			   			        	<li><a href="/nba-over-under-picks/">Over Under Picks</a></li>
+			   			        	<li><a href="/nba-money-line-picks/">Money Line Picks</a></li>
+			   			        	<li><a href="/nba-betting-picks/">Betting Picks Grid</a></li>
+		   			        	</ul>
+		   			        	
+		   			        	<h5 class="subnav-category-heading"><a href="/nba-win-picks/" class="subnav-toggle">Predictions</a></h5>
+		   			        	<ul class="subnav-list">
+			   			        	<li><a href="/nba-win-picks/">Game Winner Picks</a></li>
+			   			        	<li><a href="/nba-upset-predictions/">Most Likely Upsets</a></li>
+			   			        	<li><a href="/nba/projections/standings/">Season Projections</a></li>
+			   			        	<li><a href="/nba/betting-models/">Prediction Accuracy</a></li>
+		   			        	</ul>
+	   			        	</div> <!-- subnav-column -->
+	   			        	<div class="subnav-column">
+		   			        	<h5 class="subnav-category-heading"><a href="/nba/rankings/" class="subnav-toggle">Rankings</a></h5>
+		   			        	<ul class="subnav-list">
+			   			        	<li><a href="/nba/ranking/predictive-by-other/">Predictive</a></li>
+			   			        	<li><a href="/nba/ranking/schedule-strength-by-other/">Strength Of Schedule</a></li>
+			   			        	<li><a href="/nba/ranking/future-sos-by-other/">Future SOS</a></li>
+			   			        	<li><a href="/nba/ranking/last-10-games-by-other/">Last 10 Games</a></li>
+			   			        	<li><a href="/nba/ranking/home-by-other/">Home</a></li>
+			   			        	<li><a href="/nba/ranking/away-by-other/">Away</a></li>
+			   			        	<li><a href="/nba/ranking/in-division-by-other/">In-Division</a></li>
+			   			        	<li><a href="/nba/ranking/non-division-by-other/">Non-Division</a></li>
+			   			        	<li><a href="/nba/ranking/luck-by-other/">Luck</a></li>
+			   			        	<li><a href="/nba/ranking/consistency-by-other/">Consistency</a></li>
+			   			        	<li><a href="/nba/rankings/">More...</a></li>
+		   			        	</ul>		        	
+	   			        	</div> <!-- subnav-column -->
+	
+	   			        	<div class="subnav-column">
+		   			        	<h5 class="subnav-category-heading"><a href="/nba/stats/" class="subnav-toggle">Stats</a></h5>
+		   			        	<ul class="subnav-list">
+			   			        	<li><a href="/nba/stat/offensive-efficiency/">Offensive Efficiency</a></li>
+			   			        	<li><a href="/nba/stat/defensive-efficiency">Defensive Efficiency</a></li>				   			        	
+			   			        	<li><a href="/nba/stat/effective-field-goal-pct/">Effective Field Goal %</a></li>
+			   			        	<li><a href="">Turnover %</a></li>
+			   			        	<li><a href="/nba/stat/offensive-rebounding-pct/">Off. Rebounding %</a></li>
+			   			        	<li><a href="/nba/stat/defensive-rebounding-pct/">Def. Rebounding %</a></li>
+			   			        	<li><a href="/nba/stat/fta-per-fga/">FTA Per FGA</a></li>
+			   			        	<li><a href="/nba/stat/three-point-pct/">3 Point Shooting %</a></li>
+			   			        	<li><a href="/nba/stat/1st-half-points-per-game/">1H Points Per Game</a></li>
+			   			        	<li><a href="/nba/stat/2nd-half-points-per-game/">2H Points Per Game</a></li>
+			   			        	<li><a href="/nba/stats/">More...</a></li>
+		   			        	</ul>		   			        	
+	   			        	</div> <!-- subnav-column -->
+	
+	   			        	<div class="subnav-column">
+		   			        	<h5 class="subnav-category-heading"><a href="/nba/odds/" class="subnav-toggle">Odds</a></h5>
+		   			        	<ul class="subnav-list">
+			   			        	<li><a href="/nba/odds/">Vegas Odds</a></li>
+			   			        	<li><a href="/nba/odds-history/results/">Odds History</a></li>
+			   			        	<li><a href="/nba/odds-movement/ats/results/">Line Movement</a></li>
+		   			        	</ul>
+		   			        	
+		   			        	<h5 class="subnav-category-heading"><a href="/nba/trends/win_trends/" class="subnav-toggle">Trends</a></h5>
+		   			        	<ul class="subnav-list">
+			   			        	<li><a href="/nba/trends/win_trends/">Win/Loss Trends</a></li>
+			   			        	<li><a href="/nba/trends/ats_trends/">ATS Trends</a></li>
+		   			        	</ul>
+		   			        	
+		   			        	<h5 class="subnav-category-heading"><a href="/nba/schedules/">Schedules</a></h5>
+		   			        	<h5 class="subnav-category-heading"><a href="/nba/scores/">Scores</a></h5>
+		   			        	<h5 class="subnav-category-heading"><a href="/nba/standings/">Standings</a></h5>
+	   			        	</div> <!-- subnav-column -->
+	   			        	
+	   			        	<div class="subnav-column">
+		   			        	<h5 class="subnav-category-heading"><a href="/nba/divisions/" class="subnav-toggle">Divisions</a></h5>
+		   			        	<ul class="subnav-list">
+			   			        	<li><a href="/nba/division/atlantic/">Atlantic</a></li>
+			   			        	<li><a href="/nba/division/central/">Central</a></li>
+			   						<li><a href="/nba/division/southeast/">Southeast</a></li>
+			   			        	<li><a href="/nba/division/northwest/">Northwest</a></li>
+			   			        	<li><a href="/nba/division/pacific/">Pacific</a></li>
+			   			        	<li><a href="/nba/division/southwest/">Southwest</a></li>
+		   			        	</ul>
+	
+		   			        	<h5 class="subnav-category-heading"><a href="/nba/teams/">Teams</a></h5>
+		   			        	<h5 class="subnav-category-heading"><a href="/nba/players/">Players</a></h5>
+	   			        	</div> <!-- subnav-column -->
+			        	</div> <!-- main-nav-subnav -->
+			        </li>
+					<li class="main-nav-top-level-item"><a class="main-nav-top-level-link" id="nav-blog" href="/blog/">Blog</a></li>
+			        				        <li class="main-nav-top-level-item half signup mobile-only">
+				        	<a class="main-nav-top-level-link" href="/register/">Sign Up</a>
+				        </li>
+				        <li class="main-nav-top-level-item half mobile-only">
+				        	<a class="main-nav-top-level-link" href="/login/">Login</a>
+				        </li>		        
+			        	        </ul>
+	    </nav>
+    </header>	<div id="inner" class="clear">
+				<div id="content" class="clear">
+	
+<h1 id="h1-title">NFL Team Points per Game</h1>
+
+
+
+
+
+
+
+
+
+
+
+		<div class="clear">
+	  <div id="content-main">
+        		  <div class="ajax-wrapper module">
+      		<form action="/ajax/league/v3/stats_controller.php" class="ajax-filter" method="post">
+      		<table cellspacing="0">
+      	  	<input type="hidden" name="type" value="team-detail" />
+      	    <input type="hidden" name="league" value="nfl" />
+      	    <input type="hidden" name="stat_id" value="4" />
+      	    <input type="hidden" name="season_id" value="12" />
+      	    <input type="hidden" name="cat_type" value="4" />
+      	    <input type="hidden" name="view" value="stats_v1" />
+      	    <input type="hidden" name="is_previous" value="0" />
+    			<tr>
+    			      				<td>
+    					  <span id="date-field">
+    					    <label for="date">Date:</label> <span id="date-output">02/05</span>
+      						<input id="date" type="hidden" name="date" value="02/05/2012" />
+      						<img src="https://www.teamrankings.com/images/cal_16.png" />
+      					</span>
+    				</td>
+    				    				    			</tr>
+    	</table>
+    	</form>
+        <div class="ajax-div"></div>
+      </div>
+	  </div>
+	  
+	  <div id="content-sidebar">
+	  				   	    	
+      <div class="module">
+      <h4>More Scoring Offense Stats</h4>
+        <div class="module-in">
+        <p>
+                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	        		        			Points per Game<br/>
+        		        	                	        		        			<a href="/nfl/stat/average-scoring-margin">Average Scoring Margin</a><br/>
+        		        	                	        		        			<a href="/nfl/stat/yards-per-point">Yards per Point</a><br/>
+        		        	                	        		        			<a href="/nfl/stat/yards-per-point-margin">Yards per Point Margin</a><br/>
+        		        	                	        		        			<a href="/nfl/stat/points-per-play">Points per Play</a><br/>
+        		        	                	        		        			<a href="/nfl/stat/points-per-play-margin">Points per Play Margin</a><br/>
+        		        	                	        		        			<a href="/nfl/stat/touchdowns-per-game">Touchdowns per Game</a><br/>
+        		        	                	        		        			<a href="/nfl/stat/red-zone-scoring-attempts-per-game">Red Zone Scoring Attempts per Game</a><br/>
+        		        	                	        		        			<a href="/nfl/stat/red-zone-scores-per-game">Red Zone Scores per Game (TDs only)</a><br/>
+        		        	                	        		        			<a href="/nfl/stat/red-zone-scoring-pct">Red Zone Scoring Percentage (TD only)</a><br/>
+        		        	                	        		        			<a href="/nfl/stat/extra-point-attempts-per-game">Extra Point Attempts per Game</a><br/>
+        		        	                	        		        			<a href="/nfl/stat/extra-points-made-per-game">Extra Points Made per Game</a><br/>
+        		        	                	        		        			<a href="/nfl/stat/two-point-conversion-attempts-per-game">Two Point Conversion Attempts per Game</a><br/>
+        		        	                	        		        			<a href="/nfl/stat/two-point-conversions-per-game">Two Point Conversions per Game</a><br/>
+        		        	                	        		        			<a href="/nfl/stat/points-per-field-goal-attempt">Points per Field Goal Attempt</a><br/>
+        		        	                	        		        			<a href="/nfl/stat/extra-point-conversion-pct">Extra Point Conversion Percentage</a><br/>
+        		        	                	        		        			<a href="/nfl/stat/two-point-conversion-pct">Two Point Conversion Percentage</a><br/>
+        		        	                	        		        			<a href="/nfl/stat/offensive-touchdowns-per-game">Offensive Touchdowns per Game</a><br/>
+        		        	                	        		        			<a href="/nfl/stat/defensive-touchdowns-per-game">Defensive Touchdowns per Game</a><br/>
+        		        	                	        		        			<a href="/nfl/stat/special-teams-touchdowns-per-game">Special Teams Touchdowns per Game</a><br/>
+        		        	                	        		        			<a href="/nfl/stat/offensive-points-per-game">Offensive Points per Game (Estimated)</a><br/>
+        		        	                	        		        			<a href="/nfl/stat/defensive-points-per-game">Defensive Points per Game (Estimated)</a><br/>
+        		        	                	        		        			<a href="/nfl/stat/special-teams-points-per-game">Special Teams Points per Game (Estimated)</a><br/>
+        		        	                	        		        			<a href="/nfl/stat/offensive-point-share-pct">Offensive Point Share Percentage (Estimated)</a><br/>
+        		        	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                	                </p>
+        </div>
+      </div>
+    	<div class="module">
+<h4>From the Blog</h4>
+	<div class="module-in">
+		<p>
+	  			<a href="/blog/?p=13959">NFL Week 16 Predictions, Rankings, and Tips: The Weekly Rundown</a><br/>				<a href="/blog/?p=13898">NFL Week 14 Predictions, Rankings, and Tips: The Weekly Rundown</a><br/>				<a href="/blog/?p=13889">NFL Week 12 Predictions, Rankings, and Tips: The Weekly Rundown</a>				</p>
+    </div>
+</div>
+ 	  
+ 	  </div>
+	</div>
+</div>		<div id="sidebar">
+  				<div class="pullout">
+  <h4>NFL Stats</h4>
+  <ul>
+  	    <li><a href="/nfl/stats">Overview</a></li>
+  	    <li class="dropdown active"><a href="/nfl/team-stats">Team Stats <span></span></a>
+      <ul>
+      	      		      		      		        <li class="current"><a href="/nfl/team-stat/scoring-offense-category">Scoring Offense</a></li>
+              		      		      		        <li><a href="/nfl/team-stat/offense-by-quarter-category">Offense by Quarter</a></li>
+              		      		      		        <li><a href="/nfl/team-stat/total-offense-category">Total Offense</a></li>
+              		      		      		        <li><a href="/nfl/team-stat/rushing-offense-category">Rushing Offense</a></li>
+              		      		      		        <li><a href="/nfl/team-stat/passing-offense-category">Passing Offense</a></li>
+              		      		      		        <li><a href="/nfl/team-stat/special-teams-offense-category">Special Teams Offense</a></li>
+              		      		      		        <li><a href="/nfl/team-stat/scoring-defense-category">Scoring Defense</a></li>
+              		      		      		        <li><a href="/nfl/team-stat/defense-by-quarter-category">Defense by Quarter</a></li>
+              		      		      		        <li><a href="/nfl/team-stat/total-defense-category">Total Defense</a></li>
+              		      		      		        <li><a href="/nfl/team-stat/rushing-defense-category">Rushing Defense</a></li>
+              		      		      		        <li><a href="/nfl/team-stat/passing-defense-category">Passing Defense</a></li>
+              		      		      		        <li><a href="/nfl/team-stat/special-teams-defense-category">Special Teams Defense</a></li>
+              		      		      		        <li><a href="/nfl/team-stat/turnovers-category">Turnovers</a></li>
+              		      		      		        <li><a href="/nfl/team-stat/penalties-category">Penalties</a></li>
+              </ul>
+    </li>
+      	    <li class="dropdown"><a href="/nfl/player-stats">Player Stats <span></span></a>
+      <ul>
+      	      		      		      		        <li><a href="/nfl/player-stat/general-category">General</a></li>
+              		      		      		        <li><a href="/nfl/player-stat/passing-category">Passing</a></li>
+              		      		      		        <li><a href="/nfl/player-stat/rushing-category">Rushing</a></li>
+              		      		      		        <li><a href="/nfl/player-stat/receiving-category">Receiving</a></li>
+              		      		      		        <li><a href="/nfl/player-stat/returning-category">Returning</a></li>
+              		      		      		        <li><a href="/nfl/player-stat/fumble-category">Fumble</a></li>
+              		      		      		        <li><a href="/nfl/player-stat/kicking-category">Kicking</a></li>
+              		      		      		        <li><a href="/nfl/player-stat/punting-category">Punting</a></li>
+              		      		      		        <li><a href="/nfl/player-stat/defensive-category">Defensive</a></li>
+              		      		      		        <li><a href="/nfl/player-stat/special-teams-category">Special Teams</a></li>
+              		      		      		        <li><a href="/nfl/player-stat/scoring-category">Scoring</a></li>
+              </ul>
+    </li>
+      </ul>
+</div>    <div class="subnav">
+  	<ul>
+  <li class="subnav-title"><a href="/office-pool-picks/">Pool Picks</a></li>
+  <li id="subnav-nfl-game-winner--pickem"><a href="/football-pool-picks/">Pick'em Pool Picks</a></li>
+  <li id="subnav-nfl-survivor"><a href="/nfl-survivor-pool-picks/">Survivor Pool Picks</a></li>
+</ul>
+<ul>
+  <li class="subnav-title"><a href="/nfl-betting-picks">Betting Picks</a></li>
+  <li id="subnav-nfl-picks-ats"><a href="/nfl-ats-picks">Point Spread Picks</a></li>
+  <li id="subnav-nfl-picks-total"><a href="/nfl-over-under-picks">Over Under Picks</a></li>
+  <li id="subnav-nfl-picks-ml"><a href="/nfl-money-line-picks">Money Line Picks</a></li>
+  <li id="subnav-nfl-predictions"><a href="/nfl-betting-picks">Predictions Grid</a></li>
+</ul>
+<ul>
+  <li class="subnav-title"><a href="/nfl-win-picks">Predictions</a></li>
+  <li id="subnav-nfl-predictions-game-winner"><a href="/nfl-win-picks">Game Winner Picks</a></li>
+  <li id="subnav-nfl-predictions-upsets"><a href="/nfl-upset-predictions">Most Likely Upsets</a></li>
+  <li id="subnav-nfl-season-projections"><a href="/nfl/projections/standings">Season Projections</a></li>
+  <li id="subnav-nfl-performance"><a href="/nfl/betting-models">Prediction Accuracy</a></li>
+</ul>
+<div class="left-nav-section-name">Data</div>
+<ul>
+  <li id="subnav-nfl-team-rankings"><a href="/nfl/rankings">Rankings</a></li>
+  <li id="subnav-nfl-stats"><a href="/nfl/stats">Stats</a></li>
+  <li id="subnav-nfl-odds"><a href="/nfl/odds">Odds</a></li>
+  <li id="subnav-nfl-trends"><a href="/nfl/trends/win_trends">Trends</a></li>
+  <li id="subnav-nfl-schedules"><a href="/nfl/schedules/season">Schedules</a></li>
+  <li id="subnav-nfl-scores"><a href="/nfl/scores">Scores</a></li>
+  <li id="subnav-nfl-standings"><a href="/nfl/standings">Standings</a></li>
+  <li id="subnav-nfl-divisions"><a href="/nfl/divisions">Divisions</a></li>
+  <li id="subnav-nfl-teams"><a href="/nfl/teams">Teams</a></li>
+  <li id="subnav-nfl-players"><a href="/nfl/players">Players</a></li>
+</ul>
+
+  </div>
+  </div>
+	</div> <!-- inner -->
+
+  	
+<footer role="contentinfo">
+			                <div class="footer-row clearfix">
+                        <ul class="footer-list">
+			    <li><a href="/football-pool-picks">NFL Football Pool Picks</a></li>	
+			    <li><a href="/nfl-survivor-pool-picks">NFL Survivor Pool Picks</a></li>
+			    <li><a href="/ncaa-bracket-picks">NCAA Bracket Picks</a></li>
+			    <li><a href="/college-bowl-pool-picks">College Bowl Pool Picks</a></li>
+			    <li><a href="/football-pool-picks">College Football Pool Picks</a></li>	
+                        </ul>
+
+                        <ul class="footer-list">
+			    <li><a href="/nfl-betting-picks">NFL Picks</a></li>
+			    <li><a href="/nba-betting-picks">NBA Picks</a></li>
+			    <li><a href="/mlb-betting-picks">MLB Picks</a></li>
+			    <li><a href="/college-football-betting-picks">College Football Picks</a></li>
+			    <li><a href="/ncaa-basketball-betting-picks">College Basketball Picks</a></li>
+                        </ul>
+
+                        <ul class="footer-list">
+			    <li><a href="/nfl-win-picks">NFL Predictions</a></li>
+			    <li><a href="/nba-win-picks">NBA Predictions</a></li>
+			    <li><a href="/mlb-win-picks">MLB Predictions</a></li>
+			    <li><a href="/college-football-win-picks">College Football Predictions</a></li>
+			    <li><a href="/ncaa-basketball-win-picks">College Basketball Predictions</a></li>
+                        </ul>
+
+			                        <ul class="footer-list footer-list-primary">
+                                <li><a href="/about/">About Us</a></li>
+                                <li><a href="/about/meet-the-nerds/">Team</a></li>
+                                <li><a href="/jobs/">Jobs</a></li>
+                                <li><a href="/blog/">Blog</a></li>
+                                                                <li><a href="/about/contact-us/">Contact Us</a></li>
+                        </ul>                </div> <!-- footer-row -->
+
+                <div class="footer-row clearfix">
+                        <ul class="footer-list">
+			    <li><a href="/nfl-ats-picks">NFL Spread Picks</a></li>
+			    <li><a href="/nba-ats-picks">NBA Spread Picks</a></li>
+			    <li><a href="/mlb-run-line-picks">MLB Spread Picks</a></li>
+			    <li><a href="/college-football-ats-picks">College Football Spread Picks</a></li>
+			    <li><a href="/ncaa-basketball-ats-picks">College Basketball Spread Picks</a></li>
+                        </ul>
+
+                        <ul class="footer-list">
+			    <li><a href="/nfl/rankings">NFL Rankings</a></li>
+			    <li><a href="/nba/rankings">NBA Rankings</a></li>
+			    <li><a href="/mlb/rankings">MLB Rankings</a></li>
+			    <li><a href="/ncf/rankings">College Football Rankings</a></li>
+			    <li><a href="/ncb/rankings">College Basketball Rankings</a></li>
+                        </ul>
+
+                        <ul class="footer-list">
+			    <li><a href="/nfl/stats">NFL Stats</a></li>
+			    <li><a href="/nba/stats">NBA Stats</a></li>
+			    <li><a href="/mlb/stats">MLB Stats</a></li>
+			    <li><a href="/ncf/stats">College Football Stats</a></li>
+			    <li><a href="/ncb/stats">College Basketball Stats</a></li>
+                        </ul>
+
+                        <ul class="footer-list footer-list-primary">
+			    <li><a href="/nfl/odds">NFL Odds</a></li>
+			    <li><a href="/nba/odds">NBA Odds</a></li>
+			    <li><a href="/mlb/odds">MLB Odds</a></li>
+			    <li><a href="/ncf/odds">College Football Odds</a></li>
+			    <li><a href="/ncb/odds">College Basketball Odds</a></li>
+                        </ul>
+                </div> <!-- footer-row -->
+                <div class="footer-row clearfix">
+                        <ul class="footer-list footer-social-links clearfix">
+                                <li><a href="https://twitter.com/teamrankings" class="twitter-icon-link"><svg class="icon icon-twitter"><use xlink:href="#icon-twitter2"></use></svg> <span class="social-links-icon-label">Follow Us On Twitter</span></a></li>
+                                <li><a href="https://www.facebook.com/TeamRankings" class="facebook-icon-link"><svg class="icon icon-facebook"><use xlink:href="#icon-facebook2"></use></svg> <span class="social-links-icon-label">Find Us On Facebook</span></a></li>
+                        </ul>
+                </div> <!-- social-links -->
+
+		
+			<div class="footer-legal">
+			<p>© 2005-2015 Team Rankings, LLC. All Rights Reserved.</p>
+			
+							<p><a href="/terms-of-service/?back=none">Terms of Service</a> | <a href="/privacy-policy/?back=none">Privacy Policy</a></p>
+						
+							<p>TeamRankings.com is not affiliated with the National Collegiate Athletic Association (NCAA®) or March Madness Athletic Association, neither of which has supplied, reviewed, approved or endorsed the material on this site. TeamRankings.com is solely responsible for this site but makes no guarantee about the accuracy or completeness of the information herein.</p>
+					</div> <!-- footer-legal -->
+	</footer>  </div> <!-- wrapper -->
+
+	<script>
+	    Modernizr.load([
+		    //matchMedia polyfill
+		    {
+		        test: window.matchMedia,
+		        nope: ["/scripts/js/v4/matchmedia.js"]
+		    },
+		    "/scripts/js/v4/enquire.js",
+		    "/scripts/js/v4/main.js?ver=1434028146"
+		]);
+	</script>
+
+
+    <script type="text/javascript" src="/scripts/js/v3/jquery.truncator.js"></script>
+    <script type="text/javascript" src="/scripts/js/v3/jquery.metadata.js"></script>
+    <script type="text/javascript" src="/scripts/js/v3/jquery.tipsy.js"></script>
+    <script type="text/javascript" src="/scripts/js/v3/main.js?ver=1434028146"></script>
+    <script type="text/javascript" src="/scripts/js/v4/plugins.js"></script>
+
+
+ 
+
+
+
+<!-- Start TR tag -->
+	<iframe src="/logger.php?page_key=nfl%2Fstat%2Fpoints-per-game&amp;page_league=nfl&amp;page_type=stat&amp;trk=&amp;uri=%2Fnfl%2Fstat%2Fpoints-per-game%3Fdate%3D2012-02-05&amp;refer=&amp;check=3598781f7abf6fa2d8bf3bf4eabc9e91" width="0" height="0" frameborder="0"></iframe>
+<!-- End TR tag -->
+
+</body>
+</html>
